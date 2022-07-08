@@ -7,7 +7,6 @@ const planetsApi = async () => {
     delete planet.residents;
     return planet;
   });
-  console.log(filter);
   return filter;
 };
 

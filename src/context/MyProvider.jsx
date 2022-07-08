@@ -9,7 +9,7 @@ function Provider({ children }) {
   useEffect(() => {
     async function fetchApi() {
       const results = await planetsApi();
-      console.log(results);
+      //   console.log(results);
       setPlanets(results);
     }
     fetchApi();
@@ -17,6 +17,7 @@ function Provider({ children }) {
 
   const contextValue = {
     planets,
+    setPlanets,
   };
   return (
     <MyContext.Provider value={ contextValue }>
