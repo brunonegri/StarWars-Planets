@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Proptypes from 'prop-types';
+import PropTypes from 'prop-types';
 import MyContext from './Mycontext';
 import planetsApi from '../services/PlanetsApi';
 
@@ -26,10 +26,7 @@ function Provider({ children }) {
 }
 
 Provider.propTypes = {
-  children: Proptypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node,
-  ]).isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default Provider;
