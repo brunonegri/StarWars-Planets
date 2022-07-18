@@ -4,7 +4,7 @@ import MyContext from '../context/Mycontext';
 function Table() {
   const valueContext = useContext(MyContext);
   const { filterList } = valueContext;
-  console.log(filterList);
+  // console.log(filterList);
 
   return (
     <main>

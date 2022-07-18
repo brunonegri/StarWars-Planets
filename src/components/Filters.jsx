@@ -15,7 +15,7 @@ function Filters() {
   } = useContext(MyContext);
 
   const [options, setOptions] = useState(filterOptions);
-  console.log(options);
+  // console.log(options);
   const [column, setColumn] = useState('population');
   const [comparison, setComparison] = useState('maior que');
   const [value, setValue] = useState(0);
@@ -26,7 +26,7 @@ function Filters() {
       comparison,
       value,
     };
-
+    // Requesito 6
     const newOptions = options.filter((option) => option !== column);
     console.log(newOptions);
 
@@ -34,7 +34,7 @@ function Filters() {
     setColumn(newOptions[0]);
     addFilter(newFilter);
   };
-
+    // Requesito 7
   const deleteFilter = ({ target }) => {
     const newOptions = [...options, target.name];
 
@@ -42,7 +42,7 @@ function Filters() {
     setColumn(newOptions[0]);
     removeFilter(target.name);
   };
-
+    // Requesito 7
   const resetFilters = () => {
     setFilterByNumericValues([]);
     setOptions(filterOptions);
