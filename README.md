@@ -8,7 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-![Project Gif](./req-7.gif)
+![Project Gif](./req-9.gif)
 
 > Este projeto mostra uma tabela com dados dos planetas de starwars sendo possivel utilizar filtros.
 
