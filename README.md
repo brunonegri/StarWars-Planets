@@ -33,11 +33,11 @@ Não foi feito deplay desta aplicação, então para utiliza-lá siga as intruç
 * Fazer o clone do projeto
 * Acessar a pasta do projeto
 * Abrir o terminal na pasta do porjeto e instalar as dependências com o comando: 
-...
+```
 npm install
-...
+```
 * Após instalação das dependências poderá iniciar o projeto com o comando: 
-...
+```
 npm start
-...
+```
 
